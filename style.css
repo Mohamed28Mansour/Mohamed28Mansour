@@ -1,0 +1,169 @@
+html,
+body {
+  margin: 20px;
+  padding: 0;
+  width: 1000px;
+}
+
+header {
+  background-color: #313c4e;
+}
+
+.intro {
+  margin: 20px;
+  padding: 5px;
+}
+
+.intro h3 {
+  color: white;
+  margin: 0;
+}
+
+.intro p {
+  color: white;
+}
+
+.intro hr {
+  width: 200px;
+  margin: 8px 0px;
+  border: 1px solid white;
+}
+
+h1 h2 h3 h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.side-margin {
+  width: 200px;
+  float: left;
+}
+
+.contact p {
+  margin: 0px;
+}
+
+.skills h2 {
+  margin: 20px 0 0 0;
+}
+
+.skills hr {
+  width: 220px;
+  border: 1px solid;
+}
+
+.skills p {
+  background-color: gray;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.languages h2 {
+  margin: 20px 0 0 0;
+}
+
+.languages hr {
+  width: 220px;
+  border: 1px solid;
+}
+
+.languages li {
+  font-size: 20px;
+}
+
+.languages p {
+  font-size: 12px;
+  margin: 0 0 20px 0;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.work-experience {
+  float: right;
+  width: 700px;
+}
+
+.work-experience h2 {
+  margin: 10px 0 0 15px;
+}
+
+.work-experience hr {
+  border: 1px solid;
+}
+
+.work-experience h3 {
+  margin: 0 0 0 15px;
+}
+
+.work-experience h4 {
+  margin: 0 0 0 15px;
+  text-decoration: none;
+}
+
+.work-experience li {
+  list-style-type: square;
+}
+
+.education h2 {
+  margin: 10px 0 0 15px;
+}
+
+.education hr {
+  border: 1px solid;
+}
+
+.education h3 {
+  margin: 0 0 0 15px;
+}
+
+.education h4 {
+  margin: 0 0 0 15px;
+  text-decoration: none;
+}
+
+.education li {
+  list-style-type: square;
+}
+
+.date {
+  font-size: 12px;
+  margin: 5px 0 0 15px;
+}
+
+.location {
+  font-size: 12px;
+  float: right;
+}
+
+.details {
+  font-size: 12px;
+  margin: 2px 0 0 15px;
+}
+
+.education {
+  float: right;
+  width: 700px;
+}
