@@ -149,6 +149,33 @@ ul {
   width: 450px;
 }
 
+.additional-courses {
+  float: right;
+  width: 700px;
+}
+
+.additional-courses h2 {
+  margin: 10px 0 0 15px;
+}
+
+.additional-courses hr {
+  border: 1px solid;
+}
+
+.additional-courses h3 {
+  margin: 0 0 0 15px;
+}
+
+.additional-courses h4 {
+  margin: 0 0 0 15px;
+  text-decoration: none;
+}
+
+.additional-courses-date {
+  font-size: 12px;
+  margin: 5px 0 15px 15px;
+}
+
 .date {
   font-size: 12px;
   margin: 5px 0 0 15px;
