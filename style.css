@@ -125,6 +125,7 @@ ul {
 
 .work-experience li {
   list-style-type: square;
+  width: 450px;
 }
 
 .education h2 {
@@ -146,6 +147,7 @@ ul {
 
 .education li {
   list-style-type: square;
+  width: 450px;
 }
 
 .date {
