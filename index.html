@@ -3,24 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>CV</title>
   </head>
-  <body>
-    <header>
+  <body class="grid-container">
+    <header class="header">
       <div class="intro">
         <h1>Mohamed Mansour</h1>
-        <h3>Frontend Developer</h3>
+        <h3>Front-End Developer</h3>
         <hr />
         <p>
-          Frontend Developer with Fullstack knowledge. Background as a Customer
-          Service Team Lead including ten years experience in Customer Service.
-          Fast learner and driven to mentor in my areas of expertise to help
-          developing others. Possess ability to multitask in a fast-paced
-          environment.
+          Front-End Developer with background in team leadership. Fast learner
+          and willing to demonstrate it by building up on my knowledge of
+          Angular and JVM languages. Enthusiastic about new technologies and
+          motivated to empower users via developing customer friendly platforms
+          and features.
         </p>
       </div>
     </header>
+   
     <section class="side-margin">
       <div class="contact">
         <img
@@ -42,56 +49,55 @@
         <a href="www.linkedin.com/in/memansour">linkedin.com/in/memansour</a>
       </div>
       <div class="skills">
-        <h2>SKILLS</h2>
-        <hr />
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <p>TypeScript</p>
-        <p>ReactJS</p>
-        <p>ExpressJS</p>
-        <p>NodeJS</p>
-        <p>git</p>
-        <p>Github</p>
-        <p>MongoDB</p>
-        <p>Heroku</p>
-        <p>Communication</p>
-        <p>Team work</p>
-        <p>Time Management</p>
+        <h2 class="title">SKILLS</h2>
+        <hr class="line" />
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript-Es6</span>
+        <span>TypeScript</span>
+        <span>ReactJS</span>
+        <span>ExpressJS</span>
+        <span>NodeJS</span>
+        <span>git</span>
+        <span>Github</span>
+        <span>MongoDB</span>
+        <span>Heroku</span>
+        <span>Communication</span>
+        <span>Team work</span>
+        <span>Time Management</span>
       </div>
       <div class="languages">
-        <h2>LANGUAGES</h2>
-        <hr />
+        <h2 class="title">LANGUAGES</h2>
+        <hr class="line"/>
         <ul>
           <li>Arabic</li>
           <p>Native or Bilingual</p>
           <li>English</li>
-          <p>Full Professional Proficiency</p>
+          <p>Full Professional Proficiency - C2</p>
           <li>German</li>
           <p>Limited Working Proficiency - B1</p>
         </ul>
       </div>
     </section>
-    <section class="education">
+    <section class="content">
+      <article class="education">
       <h2>EDUCATION</h2>
       <hr />
       <div>
         <h3>Web-Development Bootcamp</h3>
         <h4>Ironhack</h4>
-        <p class="date">08/2020 - 10/2020</p>
-        <p class="location">Berlin</p>
+        <span class="date-location">08/2020 - 10/2020</span>
+        <span class="date-location">Berlin</span>
         <p class="details">Courses</p>
         <ul>
           <li>
             9 weeks intensive bootcamp learning the essentials to create a
             website.
           </li>
-          <li>HTML5, CSS3 and Responsive Web Design</li>
           <li>
-            Fundamentals of Object-oriented programming based on JavaScript
+            Fundamentals of Object-oriented programming based on JavaScript.
           </li>
-          <li>Git + Github and Version control</li>
-          <li>Web Development frameworks (Express-backend, React-frontend)</li>
+          <li>Built a Web Application with MERN Stack.</li>
           <li>Non-relational databases and ODMs</li>
           <li>Integration of the 3rd party services (APIs)</li>
           <li>
@@ -105,15 +111,15 @@
       <div>
         <h3>Bachelor of Arts, Language Interpretation and Translation</h3>
         <h4>Modern Sciences and Arts (MSA)</h4>
-        <p class="date">2006 - 2009</p>
-        <p class="location">Cairo</p>
+        <span class="date-location">2006 - 2009</span>
+        <span class="date-location">Cairo</span>
         <p class="details">Courses</p>
         <ul>
           <li>Translation major</li>
         </ul>
       </div>
-    </section>
-    <section class="additional-courses">
+      </article>
+      <article class="additional-courses">
       <h2>Additional Courses</h2>
       <hr />
       <div>
@@ -122,22 +128,12 @@
         <p class="additional-courses-date">12/2020</p>
       </div>
       <div>
-        <h3>German Labor Law</h3>
-        <h4>Poko</h4>
-        <p class="additional-courses-date">09/2019</p>
-      </div>
-      <div>
         <h3>Body Language for Entrepreneurs</h3>
         <h4>Udemy</h4>
         <p class="additional-courses-date">03/2019</p>
       </div>
-      <div>
-        <h3>Managing People</h3>
-        <h4>Booking.com</h4>
-        <p class="additional-courses-date">12/2017</p>
-      </div>
-    </section>
-    <section class="work-experience">
+      </article>
+      <article class="work-experience">
       <h2>WORK EXPERIENCE</h2>
       <hr />
       <div>
@@ -148,14 +144,29 @@
         <p class="details">Achievements/Tasks</p>
         <ul>
           <li>
-            Increasing the productivity of a new team by 20% within 6 months to
-            rank second on site.
+            Leading a team to rank second on site by increasing KPIs by 20%
+            through integrating an open and two way feedback culture in the
+            team.
           </li>
           <li>
-            Leading a workshop for more experienced Team Leaders on how to best
-            utilize reports and data to develop team members.
+            Initiating a workshop for more experienced Team Leaders on how to
+            best utilize reports and data to develop team members.
           </li>
-          <li>Keeping a balanced fun and professional work environment.</li>
+          <li>
+            Participating in projects with cross-functional-teams to achieve a
+            customer friendly landing page of the data tools used by employees.
+            The impact has been measured by the readability and understanding of
+            data collected mainly from Customer Service Agents and Management.
+          </li>
+          <li>
+            Taking part of the planning process of initiatives lead by Booking
+            to support and enhance the community.
+          </li>
+          <li>
+            Keeping a balanced fun and professional work environment. This has
+            been achieved by team based initiatives in addition to site
+            initiatives by collaborating with peer Team Leaders and Management.
+          </li>
           <li>
             Mentoring new Team Leaders at the beginning of their career path.
           </li>
@@ -169,25 +180,23 @@
         <p class="details">Achievements/Tasks</p>
         <ul>
           <li>
-            Solving Booking.com escalated customers' complaints by phone and
-            email.
+            Solving escalated complaints to the Executive Board, Legal Team and
+            Media Team by phone and email.
           </li>
           <li>
-            Supporting relationships with Booking.com's hotel partners by phone
-            and email.
+            Initiating guidelines on how to handle specific complaints. The
+            guidelines created by collaborating with cross-functional teams to
+            ensure sustainability. The guidelines has a powerful and positive
+            impact that lead to continuity of their usage.
           </li>
           <li>
             Coordinating the resolution of complaints with different
             stakeholders.
           </li>
-          <li>Analyzing data and recommending improvements.</li>
-          <li>
-            Following up with Finance and Credit Control regarding payments and
-            invoices.
-          </li>
           <li>
             Delivering presentations to teams in order to increase awareness of
-            procedures and updates.
+            procedures and updates. The presentations were inspiring as per the
+            feedback received from attendees.
           </li>
         </ul>
       </div>
@@ -199,19 +208,9 @@
         <p class="details">Achievements/Tasks</p>
         <ul>
           <li>
-            Servicing the inquiries of customers and accommodation partners on
-            the phone as well as by email.
-          </li>
-          <li>
-            Processing, modifying and cancelling existing accommodation
-            reservations.
+            Servicing the inquiries of customers and accommodation partners.
           </li>
           <li>Mentoring junior agents.</li>
-          <li>
-            Ensuring a stable working relationships with accommodation partners
-            through first-class customer service and by supporting the Account
-            Management teams.
-          </li>
         </ul>
       </div>
       <div>
